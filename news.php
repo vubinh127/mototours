@@ -27,7 +27,7 @@
     <main>
         <div class="news_page">
             <div class="container">
-                <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex flex-column flex-lg-row align-items-center justify-content-between">
                     <h2>Tin tức</h2>
                     <form class="search-form">
                         <div class="input-group">
@@ -40,85 +40,93 @@
                 </div>
                <div class="list_news">
                     <div class="row">
-                        <div class="col col-lg-4">
-                            <div class="news_detail">
-                                <div class="image">
-                                    <img src="assets/images/touring.png" alt="">
-                                </div>
-                                <div class="news_text">
-                                    <p class="d-flex align-items-start justify-content-between">
-                                        Khám phá Tây Bắc Mông Cổ
-                                    </p>
-                                    <span>Bạn ngại đi du lịch vì thấy người ta thường có đôi có cặp hoặc đi cùng gia đình con cái,....</span>
-                                    <div class="date d-flex align-items-center">
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
-                                        </svg>
-                                        4/3/2025
+                        <div class="col-lg-4">
+                             <a href="/mototours/detail_news.php">
+                                <div class="news_detail">
+                                    <div class="image">
+                                        <img src="assets/images/touring.png" alt="">
                                     </div>
-                                
+                                    <div class="news_text">
+                                        <p class="d-flex align-items-start justify-content-between">
+                                            Khám phá Tây Bắc Mông Cổ
+                                        </p>
+                                        <span>Bạn ngại đi du lịch vì thấy người ta thường có đôi có cặp hoặc đi cùng gia đình con cái,....</span>
+                                        <div class="date d-flex align-items-center">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
+                                            </svg>
+                                            4/3/2025
+                                        </div>
+
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                        <div class="col col-lg-4">
-                            <div class="news_detail">
-                                <div class="image">
-                                    <img src="assets/images/touring.png" alt="">
-                                </div>
-                                <div class="news_text">
-                                    <p class="d-flex align-items-start justify-content-between">
-                                        Khám phá Tây Bắc Mông Cổ
-                                    </p>
-                                    <span>Bạn ngại đi du lịch vì thấy người ta thường có đôi có cặp hoặc đi cùng gia đình con cái,....</span>
-                                    <div class="date d-flex align-items-center">
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
-                                        </svg>
-                                        4/3/2025
+                        <div class="col-lg-4">
+                             <a href="/mototours/detail_news.php">
+                                <div class="news_detail">
+                                    <div class="image">
+                                        <img src="assets/images/touring.png" alt="">
                                     </div>
-                                
+                                    <div class="news_text">
+                                        <p class="d-flex align-items-start justify-content-between">
+                                            Khám phá Tây Bắc Mông Cổ
+                                        </p>
+                                        <span>Bạn ngại đi du lịch vì thấy người ta thường có đôi có cặp hoặc đi cùng gia đình con cái,....</span>
+                                        <div class="date d-flex align-items-center">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
+                                            </svg>
+                                            4/3/2025
+                                        </div>
+
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                        <div class="col col-lg-4">
-                            <div class="news_detail">
-                                <div class="image">
-                                    <img src="assets/images/touring.png" alt="">
-                                </div>
-                                <div class="news_text">
-                                    <p class="d-flex align-items-start justify-content-between">
-                                        Khám phá Tây Bắc Mông Cổ
-                                    </p>
-                                    <span>Bạn ngại đi du lịch vì thấy người ta thường có đôi có cặp hoặc đi cùng gia đình con cái,....</span>
-                                    <div class="date d-flex align-items-center">
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
-                                        </svg>
-                                        4/3/2025
+                        <div class="col-lg-4">
+                             <a href="/mototours/detail_news.php">
+                                <div class="news_detail">
+                                    <div class="image">
+                                        <img src="assets/images/touring.png" alt="">
                                     </div>
-                                
+                                    <div class="news_text">
+                                        <p class="d-flex align-items-start justify-content-between">
+                                            Khám phá Tây Bắc Mông Cổ
+                                        </p>
+                                        <span>Bạn ngại đi du lịch vì thấy người ta thường có đôi có cặp hoặc đi cùng gia đình con cái,....</span>
+                                        <div class="date d-flex align-items-center">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
+                                            </svg>
+                                            4/3/2025
+                                        </div>
+
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
-                        <div class="col col-lg-4">
-                            <div class="news_detail">
-                                <div class="image">
-                                    <img src="assets/images/touring.png" alt="">
-                                </div>
-                                <div class="news_text">
-                                    <p class="d-flex align-items-start justify-content-between">
-                                        Khám phá Tây Bắc Mông Cổ
-                                    </p>
-                                    <span>Bạn ngại đi du lịch vì thấy người ta thường có đôi có cặp hoặc đi cùng gia đình con cái,....</span>
-                                    <div class="date d-flex align-items-center">
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
-                                        </svg>
-                                        4/3/2025
+                        <div class="col-lg-4">
+                             <a href="/mototours/detail_news.php">
+                                <div class="news_detail">
+                                    <div class="image">
+                                        <img src="assets/images/touring.png" alt="">
                                     </div>
-                                
+                                    <div class="news_text">
+                                        <p class="d-flex align-items-start justify-content-between">
+                                            Khám phá Tây Bắc Mông Cổ
+                                        </p>
+                                        <span>Bạn ngại đi du lịch vì thấy người ta thường có đôi có cặp hoặc đi cùng gia đình con cái,....</span>
+                                        <div class="date d-flex align-items-center">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
+                                            </svg>
+                                            4/3/2025
+                                        </div>
+
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                </div>

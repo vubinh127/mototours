@@ -3,7 +3,9 @@
                 <div class="d-flex flex-column flex-xl-row">
                     <div class="footer-logo-section">
                         <div class="footer-logo">
-                            <img src="assets/images/logo_footer.png" alt="">
+                            <a href="/mototours/index.php">
+                                <img src="assets/images/logo_footer.png" alt="">
+                            </a>
                         </div>
                         <p class="footer-description">
                             Mototours Asia sẽ đưa bạn về những miền hoang dã đúng như tên gọi của nó. Hãy cùng khám phá, trải nghiệm để nhớ suốt đời cùng MTA
@@ -16,11 +18,11 @@
                     <div class="footer-links">
                         <div class="footer-column">
                             <h4>Liên kết nhanh</h4>
-                            <a href="#">Tour trong nước</a>
-                            <a href="#">Tour nước ngoài</a>
-                            <a href="#">Về chúng tôi</a>
-                            <a href="#">Blogs</a>
-                            <a href="#">Tin tức</a>
+                            <a href="/mototours/tour.php">Tour trong nước</a>
+                            <a href="/mototours/tour.php">Tour nước ngoài</a>
+                            <a href="/mototours/about.php">Về chúng tôi</a>
+                            <a href="/mototours/tour.php">Blogs</a>
+                            <a href="/mototours/news.php">Tin tức</a>
                         </div>
                         <div class="footer-column">
                             <h4>Liên hệ MTA</h4>

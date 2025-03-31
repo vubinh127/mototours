@@ -61,7 +61,91 @@
                 <div class="more_news">
                     <h2 class="text-left">Tin khác cùng chủ đề</h2>
                     <div class="row">
-                        <div class="col col-lg-3">
+                        <div class="col-lg-3">
+                            <div class="news_detail">
+                                <div class="image">
+                                    <img src="assets/images/touring.png" alt="">
+                                </div>
+                                <div class="news_text">
+                                    <p class="d-flex align-items-start justify-content-between">
+                                        Khám phá Tây Bắc Mông Cổ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="news_detail">
+                                <div class="image">
+                                    <img src="assets/images/touring.png" alt="">
+                                </div>
+                                <div class="news_text">
+                                    <p class="d-flex align-items-start justify-content-between">
+                                        Khám phá Tây Bắc Mông Cổ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="news_detail">
+                                <div class="image">
+                                    <img src="assets/images/touring.png" alt="">
+                                </div>
+                                <div class="news_text">
+                                    <p class="d-flex align-items-start justify-content-between">
+                                        Khám phá Tây Bắc Mông Cổ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="news_detail">
+                                <div class="image">
+                                    <img src="assets/images/touring.png" alt="">
+                                </div>
+                                <div class="news_text">
+                                    <p class="d-flex align-items-start justify-content-between">
+                                        Khám phá Tây Bắc Mông Cổ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="news_detail">
+                                <div class="image">
+                                    <img src="assets/images/touring.png" alt="">
+                                </div>
+                                <div class="news_text">
+                                    <p class="d-flex align-items-start justify-content-between">
+                                        Khám phá Tây Bắc Mông Cổ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="news_detail">
+                                <div class="image">
+                                    <img src="assets/images/touring.png" alt="">
+                                </div>
+                                <div class="news_text">
+                                    <p class="d-flex align-items-start justify-content-between">
+                                        Khám phá Tây Bắc Mông Cổ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="news_detail">
+                                <div class="image">
+                                    <img src="assets/images/touring.png" alt="">
+                                </div>
+                                <div class="news_text">
+                                    <p class="d-flex align-items-start justify-content-between">
+                                        Khám phá Tây Bắc Mông Cổ
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
                             <div class="news_detail">
                                 <div class="image">
                                     <img src="assets/images/touring.png" alt="">

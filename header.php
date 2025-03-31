@@ -2,7 +2,7 @@
         <header>
             <div class="container">
                 <nav class="main-menu navbar navbar-expand-xl navbar-light justify-content-between align-items-center">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="/mototours/index.php">
                         <img src="assets/images/Logo.svg" alt="" />
                     </a>
                     <button
@@ -19,7 +19,7 @@
                     <div class="collapse navbar-collapse menu-custom justify-content-end" id="navbarNav">
                         <ul id="menu-main-menu" class="navbar-nav menu">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="brandDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle" href="/mototours/tour.php" id="brandDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Tour trong nước
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="brandDropdown">
@@ -29,7 +29,7 @@
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle" href="/mototours/tour.php" id="productsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Tour quốc tế
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="productsDropdown">
@@ -39,10 +39,10 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/board/gallery/list.html?board_no=8">Về chúng tôi</a>
+                                <a class="nav-link" href="/mototours/about.php">Về chúng tôi</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/board/faq/list.html?board_no=27">Liên hệ</a>
+                                <a class="nav-link" href="/mototours/contact.php">Liên hệ</a>
                             </li>
                             <li class="nav-item">
                                 <div class="d-flex align-items-center">
@@ -58,7 +58,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <div class="btn-FF8A15 booking_btn">Book now</div>
+                                <button class="btn-FF8A15 booking_btn">Book now</button>
                             </li>
                         </ul>
                     </div>

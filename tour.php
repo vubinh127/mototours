@@ -66,145 +66,449 @@
                 </div>
 
                 <div class="discover_tour_list">
-                    <div class="discover_tour">
-                        <div class="discover_tour_thumbnail swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img src="assets/images/touring.png" alt="">
+                    <a href="/mototours/detail_tour.php">
+                        <div class="discover_tour">
+                            <div class="discover_tour_thumbnail swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <img src="assets/images/touring.png" alt="">    
-                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
                             </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-pagination"></div>
-                        </div>
-                        <div class="tour_text">
-                            <p class="d-flex align-items-start justify-content-between">
-                                Khám phá Tây Bắc Mông Cổ
+                            <div class="tour_text">
+                                <p class="d-flex align-items-start justify-content-between">
+                                    Khám phá Tây Bắc Mông Cổ
 
-                                <span class="d-flex align-items-center rating_percent"> 
+                                    <span class="d-flex align-items-center rating_percent">
                                     <img src="assets/images/rating.svg" alt="">
                                     4.9
                                 </span>
-                            </p>
-                            <div class="date d-flex align-items-center">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
-                                </svg>
-                                4/3/2025
-                            </div>
-                            <div class="price">
-                                $1999,999
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="discover_tour">
-                        <div class="discover_tour_thumbnail swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img src="assets/images/touring.png" alt="">
+                                </p>
+                                <div class="date d-flex align-items-center">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
+                                    </svg>
+                                    4/3/2025
                                 </div>
-                                <div class="swiper-slide">
-                                    <img src="assets/images/touring.png" alt="">    
+                                <div class="price">
+                                    $1999,999
                                 </div>
                             </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-pagination"></div>
                         </div>
-                        <div class="tour_text">
-                            <p class="d-flex align-items-start justify-content-between">
-                                Khám phá Tây Bắc Mông Cổ
+                    </a>
 
-                                <span class="d-flex align-items-center rating_percent"> 
+                    <a href="/mototours/detail_tour.php">
+                        <div class="discover_tour">
+                            <div class="discover_tour_thumbnail swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="tour_text">
+                                <p class="d-flex align-items-start justify-content-between">
+                                    Khám phá Tây Bắc Mông Cổ
+
+                                    <span class="d-flex align-items-center rating_percent">
                                     <img src="assets/images/rating.svg" alt="">
                                     4.9
                                 </span>
-                            </p>
-                            <div class="date d-flex align-items-center">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
-                                </svg>
-                                4/3/2025
-                            </div>
-                            <div class="price">
-                                $1999,999
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="discover_tour">
-                        <div class="discover_tour_thumbnail swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img src="assets/images/touring.png" alt="">
+                                </p>
+                                <div class="date d-flex align-items-center">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
+                                    </svg>
+                                    4/3/2025
                                 </div>
-                                <div class="swiper-slide">
-                                    <img src="assets/images/touring.png" alt="">    
+                                <div class="price">
+                                    $1999,999
                                 </div>
                             </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-pagination"></div>
                         </div>
-                        <div class="tour_text">
-                            <p class="d-flex align-items-start justify-content-between">
-                                Khám phá Tây Bắc Mông Cổ
+                    </a>
 
-                                <span class="d-flex align-items-center rating_percent"> 
+                    <a href="/mototours/detail_tour.php">
+                        <div class="discover_tour">
+                            <div class="discover_tour_thumbnail swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="tour_text">
+                                <p class="d-flex align-items-start justify-content-between">
+                                    Khám phá Tây Bắc Mông Cổ
+
+                                    <span class="d-flex align-items-center rating_percent">
                                     <img src="assets/images/rating.svg" alt="">
                                     4.9
                                 </span>
-                            </p>
-                            <div class="date d-flex align-items-center">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
-                                </svg>
-                                4/3/2025
-                            </div>
-                            <div class="price">
-                                $1999,999
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="discover_tour">
-                        <div class="discover_tour_thumbnail swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img src="assets/images/touring.png" alt="">
+                                </p>
+                                <div class="date d-flex align-items-center">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
+                                    </svg>
+                                    4/3/2025
                                 </div>
-                                <div class="swiper-slide">
-                                    <img src="assets/images/touring.png" alt="">    
+                                <div class="price">
+                                    $1999,999
                                 </div>
                             </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-pagination"></div>
                         </div>
-                        <div class="tour_text">
-                            <p class="d-flex align-items-start justify-content-between">
-                                Khám phá Tây Bắc Mông Cổ
+                    </a>
 
-                                <span class="d-flex align-items-center rating_percent"> 
+                    <a href="/mototours/detail_tour.php">
+                        <div class="discover_tour">
+                            <div class="discover_tour_thumbnail swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="tour_text">
+                                <p class="d-flex align-items-start justify-content-between">
+                                    Khám phá Tây Bắc Mông Cổ
+
+                                    <span class="d-flex align-items-center rating_percent">
                                     <img src="assets/images/rating.svg" alt="">
                                     4.9
                                 </span>
-                            </p>
-                            <div class="date d-flex align-items-center">
-                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
-                                </svg>
-                                4/3/2025
-                            </div>
-                            <div class="price d-flex align-items-center">
-                                <p class="sale"><span class="sale_percent">15%</span><span class="sale_price"> $1999,999</span></p> $1999,999
+                                </p>
+                                <div class="date d-flex align-items-center">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
+                                    </svg>
+                                    4/3/2025
+                                </div>
+                                <div class="price d-flex flex-wrap align-items-center">
+                                    <p class="sale"><span class="sale_percent">15%</span><span class="sale_price"> $1999,999</span></p> $1999,999
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
+
+                    <a href="/mototours/detail_tour.php">
+                        <div class="discover_tour">
+                            <div class="discover_tour_thumbnail swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="tour_text">
+                                <p class="d-flex align-items-start justify-content-between">
+                                    Khám phá Tây Bắc Mông Cổ
+
+                                    <span class="d-flex align-items-center rating_percent">
+                                    <img src="assets/images/rating.svg" alt="">
+                                    4.9
+                                </span>
+                                </p>
+                                <div class="date d-flex align-items-center">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
+                                    </svg>
+                                    4/3/2025
+                                </div>
+                                <div class="price">
+                                    $1999,999
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/mototours/detail_tour.php">
+                        <div class="discover_tour">
+                            <div class="discover_tour_thumbnail swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="tour_text">
+                                <p class="d-flex align-items-start justify-content-between">
+                                    Khám phá Tây Bắc Mông Cổ
+
+                                    <span class="d-flex align-items-center rating_percent">
+                                    <img src="assets/images/rating.svg" alt="">
+                                    4.9
+                                </span>
+                                </p>
+                                <div class="date d-flex align-items-center">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
+                                    </svg>
+                                    4/3/2025
+                                </div>
+                                <div class="price">
+                                    $1999,999
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/mototours/detail_tour.php">
+                        <div class="discover_tour">
+                            <div class="discover_tour_thumbnail swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="tour_text">
+                                <p class="d-flex align-items-start justify-content-between">
+                                    Khám phá Tây Bắc Mông Cổ
+
+                                    <span class="d-flex align-items-center rating_percent">
+                                    <img src="assets/images/rating.svg" alt="">
+                                    4.9
+                                </span>
+                                </p>
+                                <div class="date d-flex align-items-center">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
+                                    </svg>
+                                    4/3/2025
+                                </div>
+                                <div class="price">
+                                    $1999,999
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/mototours/detail_tour.php">
+                        <div class="discover_tour">
+                            <div class="discover_tour_thumbnail swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="tour_text">
+                                <p class="d-flex align-items-start justify-content-between">
+                                    Khám phá Tây Bắc Mông Cổ
+
+                                    <span class="d-flex align-items-center rating_percent">
+                                    <img src="assets/images/rating.svg" alt="">
+                                    4.9
+                                </span>
+                                </p>
+                                <div class="date d-flex align-items-center">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
+                                    </svg>
+                                    4/3/2025
+                                </div>
+                                <div class="price d-flex flex-wrap align-items-center">
+                                    <p class="sale"><span class="sale_percent">15%</span><span class="sale_price"> $1999,999</span></p> $1999,999
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/mototours/detail_tour.php">
+                        <div class="discover_tour">
+                            <div class="discover_tour_thumbnail swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="tour_text">
+                                <p class="d-flex align-items-start justify-content-between">
+                                    Khám phá Tây Bắc Mông Cổ
+
+                                    <span class="d-flex align-items-center rating_percent">
+                                    <img src="assets/images/rating.svg" alt="">
+                                    4.9
+                                </span>
+                                </p>
+                                <div class="date d-flex align-items-center">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
+                                    </svg>
+                                    4/3/2025
+                                </div>
+                                <div class="price">
+                                    $1999,999
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/mototours/detail_tour.php">
+                        <div class="discover_tour">
+                            <div class="discover_tour_thumbnail swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="tour_text">
+                                <p class="d-flex align-items-start justify-content-between">
+                                    Khám phá Tây Bắc Mông Cổ
+
+                                    <span class="d-flex align-items-center rating_percent">
+                                    <img src="assets/images/rating.svg" alt="">
+                                    4.9
+                                </span>
+                                </p>
+                                <div class="date d-flex align-items-center">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
+                                    </svg>
+                                    4/3/2025
+                                </div>
+                                <div class="price">
+                                    $1999,999
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/mototours/detail_tour.php">
+                        <div class="discover_tour">
+                            <div class="discover_tour_thumbnail swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="tour_text">
+                                <p class="d-flex align-items-start justify-content-between">
+                                    Khám phá Tây Bắc Mông Cổ
+
+                                    <span class="d-flex align-items-center rating_percent">
+                                    <img src="assets/images/rating.svg" alt="">
+                                    4.9
+                                </span>
+                                </p>
+                                <div class="date d-flex align-items-center">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
+                                    </svg>
+                                    4/3/2025
+                                </div>
+                                <div class="price">
+                                    $1999,999
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/mototours/detail_tour.php">
+                        <div class="discover_tour">
+                            <div class="discover_tour_thumbnail swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="assets/images/touring.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <div class="tour_text">
+                                <p class="d-flex align-items-start justify-content-between">
+                                    Khám phá Tây Bắc Mông Cổ
+
+                                    <span class="d-flex align-items-center rating_percent">
+                                    <img src="assets/images/rating.svg" alt="">
+                                    4.9
+                                </span>
+                                </p>
+                                <div class="date d-flex align-items-center">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
+                                    </svg>
+                                    4/3/2025
+                                </div>
+                                <div class="price d-flex flex-wrap align-items-center">
+                                    <p class="sale"><span class="sale_percent">15%</span><span class="sale_price"> $1999,999</span></p> $1999,999
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

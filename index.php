@@ -32,7 +32,7 @@
                     We design and develop various types of exploration and experiential tours, both domestically and internationally, combined with community development
                     projects to support ethnic minority communities in these areas.
                 </p>
-                <div class="btn-FF8A15 booking_btn">Book now</div>
+                <a href="/mototours/tour.php" class="btn-FF8A15 booking_btn">Book now</a>
             </div>
         </div>
 
@@ -62,65 +62,73 @@
                 <p class="description">Trải nghiệm những tour đặc biệt sắp diễn ra</p>
                 <div class="box-special-tour">
                     <div class="box_tour">
-                        <img src="assets/images/special_img.jpg" alt="" />
-                        <div class="tag_location btn-FF8A15">Mỹ</div>
-                        <div class="title_tour">
-                            <p>Nam Mỹ</p>
-                            <span>Nơi tận cùng trái đất theo đúng nghĩa đen và nghĩa bóng của nó, hành trình này sẽ đưa bạn đến với vùng Patagonia,...</span>
-                            <div class="star-rating">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
+                        <a href="">
+                            <img src="assets/images/special_img.jpg" alt="" />
+                            <div class="tag_location btn-FF8A15">Mỹ</div>
+                            <div class="title_tour">
+                                <p>Nam Mỹ</p>
+                                <span>Nơi tận cùng trái đất theo đúng nghĩa đen và nghĩa bóng của nó, hành trình này sẽ đưa bạn đến với vùng Patagonia,...</span>
+                                <div class="star-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="box_tour">
-                        <img src="assets/images/special_img_2.jpg" alt="" />
-                        <div class="tag_location btn-FF8A15">Mỹ</div>
-                        <div class="title_tour">
-                            <p>Nam Mỹ</p>
-                            <span>Nơi tận cùng trái đất theo đúng nghĩa đen và nghĩa bóng của nó, hành trình này sẽ đưa bạn đến với vùng Patagonia,...</span>
-                            <div class="star-rating">
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
+                        <a href="">
+                            <img src="assets/images/special_img_2.jpg" alt="" />
+                            <div class="tag_location btn-FF8A15">Mỹ</div>
+                            <div class="title_tour">
+                                <p>Nam Mỹ</p>
+                                <span>Nơi tận cùng trái đất theo đúng nghĩa đen và nghĩa bóng của nó, hành trình này sẽ đưa bạn đến với vùng Patagonia,...</span>
+                                <div class="star-rating">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="small_grid">
                         <div class="box_tour">
-                            <img src="assets/images/special_img_3.jpg" alt="" />
-                            <div class="tag_location btn-FF8A15">Mỹ</div>
-                            <div class="title_tour">
-                                <p>Nam Mỹ</p>
-                                <span>Nơi tận cùng trái đất theo đúng nghĩa đen và nghĩa bóng của nó, hành trình này sẽ đưa bạn đến với vùng Patagonia,...</span>
-                                <div class="star-rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
+                            <a href="">
+                                <img src="assets/images/special_img_3.jpg" alt="" />
+                                <div class="tag_location btn-FF8A15">Mỹ</div>
+                                <div class="title_tour">
+                                    <p>Nam Mỹ</p>
+                                    <span>Nơi tận cùng trái đất theo đúng nghĩa đen và nghĩa bóng của nó, hành trình này sẽ đưa bạn đến với vùng Patagonia,...</span>
+                                    <div class="star-rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="box_tour">
-                            <img src="assets/images/special_img_3.jpg" alt="" />
-                            <div class="tag_location btn-FF8A15">Mỹ</div>
-                            <div class="title_tour">
-                                <p>Nam Mỹ</p>
-                                <span>Nơi tận cùng trái đất theo đúng nghĩa đen và nghĩa bóng của nó, hành trình này sẽ đưa bạn đến với vùng Patagonia,...</span>
-                                <div class="star-rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
+                            <a href="">
+                                <img src="assets/images/special_img_3.jpg" alt="" />
+                                <div class="tag_location btn-FF8A15">Mỹ</div>
+                                <div class="title_tour">
+                                    <p>Nam Mỹ</p>
+                                    <span>Nơi tận cùng trái đất theo đúng nghĩa đen và nghĩa bóng của nó, hành trình này sẽ đưa bạn đến với vùng Patagonia,...</span>
+                                    <div class="star-rating">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -186,25 +194,119 @@
                 <div class="list_card swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="card">
-                                <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
-                                <div class="card-content">
-                                    <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
-                                    <p class="card-subtitle">Móng Cổ</p>
-                                    <div class="card-bottom">
-                                        <div>
-                                            <span class="card-rating">4.8</span>
-                                            <span class="card-review">Xuất sắc • 2,000 Reviews</span>
-                                        </div>
+                            <a href="">
+                                <div class="card">
+                                    <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
+                                    <div class="card-content">
+                                        <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
+                                        <p class="card-subtitle">Móng Cổ</p>
+                                        <div class="card-bottom">
+                                            <div>
+                                                <span class="card-rating">4.8</span>
+                                                <span class="card-review">Xuất sắc • 2,000 Reviews</span>
+                                            </div>
 
-                                        <a href="#" class="btn-FF8A15 card-button">
-                                            <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
-                                            </svg>
-                                        </a>
+                                            <a href="#" class="btn-FF8A15 card-button">
+                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
+                                                </svg>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="card">
+                                    <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
+                                    <div class="card-content">
+                                        <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
+                                        <p class="card-subtitle">Móng Cổ</p>
+                                        <div class="card-bottom">
+                                            <div>
+                                                <span class="card-rating">4.8</span>
+                                                <span class="card-review">Xuất sắc • 2,000 Reviews</span>
+                                            </div>
+
+                                            <a href="#" class="btn-FF8A15 card-button">
+                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="card">
+                                    <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
+                                    <div class="card-content">
+                                        <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
+                                        <p class="card-subtitle">Móng Cổ</p>
+                                        <div class="card-bottom">
+                                            <div>
+                                                <span class="card-rating">4.8</span>
+                                                <span class="card-review">Xuất sắc • 2,000 Reviews</span>
+                                            </div>
+
+                                            <a href="#" class="btn-FF8A15 card-button">
+                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="card">
+                                    <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
+                                    <div class="card-content">
+                                        <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
+                                        <p class="card-subtitle">Móng Cổ</p>
+                                        <div class="card-bottom">
+                                            <div>
+                                                <span class="card-rating">4.8</span>
+                                                <span class="card-review">Xuất sắc • 2,000 Reviews</span>
+                                            </div>
+
+                                            <a href="#" class="btn-FF8A15 card-button">
+                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="card">
+                                    <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
+                                    <div class="card-content">
+                                        <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
+                                        <p class="card-subtitle">Móng Cổ</p>
+                                        <div class="card-bottom">
+                                            <div>
+                                                <span class="card-rating">4.8</span>
+                                                <span class="card-review">Xuất sắc • 2,000 Reviews</span>
+                                            </div>
+
+                                            <a href="#" class="btn-FF8A15 card-button">
+                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -231,25 +333,119 @@
                 <div class="list_card swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="card">
-                                <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
-                                <div class="card-content">
-                                    <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
-                                    <p class="card-subtitle">Móng Cổ</p>
-                                    <div class="card-bottom">
-                                        <div>
-                                            <span class="card-rating">4.8</span>
-                                            <span class="card-review">Xuất sắc • 2,000 Reviews</span>
-                                        </div>
+                            <a href="">
+                                <div class="card">
+                                    <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
+                                    <div class="card-content">
+                                        <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
+                                        <p class="card-subtitle">Móng Cổ</p>
+                                        <div class="card-bottom">
+                                            <div>
+                                                <span class="card-rating">4.8</span>
+                                                <span class="card-review">Xuất sắc • 2,000 Reviews</span>
+                                            </div>
 
-                                        <a href="#" class="btn-FF8A15 card-button">
-                                            <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
-                                            </svg>
-                                        </a>
+                                            <a href="#" class="btn-FF8A15 card-button">
+                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
+                                                </svg>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="card">
+                                    <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
+                                    <div class="card-content">
+                                        <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
+                                        <p class="card-subtitle">Móng Cổ</p>
+                                        <div class="card-bottom">
+                                            <div>
+                                                <span class="card-rating">4.8</span>
+                                                <span class="card-review">Xuất sắc • 2,000 Reviews</span>
+                                            </div>
+
+                                            <a href="#" class="btn-FF8A15 card-button">
+                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="card">
+                                    <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
+                                    <div class="card-content">
+                                        <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
+                                        <p class="card-subtitle">Móng Cổ</p>
+                                        <div class="card-bottom">
+                                            <div>
+                                                <span class="card-rating">4.8</span>
+                                                <span class="card-review">Xuất sắc • 2,000 Reviews</span>
+                                            </div>
+
+                                            <a href="#" class="btn-FF8A15 card-button">
+                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="card">
+                                    <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
+                                    <div class="card-content">
+                                        <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
+                                        <p class="card-subtitle">Móng Cổ</p>
+                                        <div class="card-bottom">
+                                            <div>
+                                                <span class="card-rating">4.8</span>
+                                                <span class="card-review">Xuất sắc • 2,000 Reviews</span>
+                                            </div>
+
+                                            <a href="#" class="btn-FF8A15 card-button">
+                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="">
+                                <div class="card">
+                                    <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
+                                    <div class="card-content">
+                                        <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
+                                        <p class="card-subtitle">Móng Cổ</p>
+                                        <div class="card-bottom">
+                                            <div>
+                                                <span class="card-rating">4.8</span>
+                                                <span class="card-review">Xuất sắc • 2,000 Reviews</span>
+                                            </div>
+
+                                            <a href="#" class="btn-FF8A15 card-button">
+                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -385,66 +581,74 @@
                             </div>
                             <p class="description">Tin du lịch mới nhất</p>
                             <div class="news_list">
-                                <div class="news_thumbnail d-flex align-items-center">
-                                    <img src="assets/images/blog_bottom.png" alt="">
-                                    <div class="content">
-                                        <div>
-                                            <p>Du lịch Tân Cương ngắm thiên nhiên tươi đẹp vùng viễn Tây Trung Quốc</p>
-                                            <span>Bạn ngại đi du lịch vì thấy người ta thường có đôi có cặp hoặc đi cùng gia đình con cái,....</span>
-                                        </div>
-                                        <div class="date d-flex align-items-center">
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
-                                            </svg>
-                                            4/3/2025
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="news_thumbnail d-flex align-items-center">
-                                    <img src="assets/images/blog_bottom.png" alt="">
-                                    <div class="content">
-                                        <div>
-                                            <p>Du lịch Tân Cương ngắm thiên nhiên tươi đẹp vùng viễn Tây Trung Quốc</p>
-                                            <span>Bạn ngại đi du lịch vì thấy người ta thường có đôi có cặp hoặc đi cùng gia đình con cái,....</span>
-                                        </div>
-                                        <div class="date d-flex align-items-center">
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
-                                            </svg>
-                                            4/3/2025
+                                <a href="">
+                                    <div class="news_thumbnail d-flex align-items-center">
+                                        <img src="assets/images/blog_bottom.png" alt="">
+                                        <div class="content">
+                                            <div>
+                                                <p>Du lịch Tân Cương ngắm thiên nhiên tươi đẹp vùng viễn Tây Trung Quốc</p>
+                                                <span>Bạn ngại đi du lịch vì thấy người ta thường có đôi có cặp hoặc đi cùng gia đình con cái,....</span>
+                                            </div>
+                                            <div class="date d-flex align-items-center">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
+                                                </svg>
+                                                4/3/2025
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="news_thumbnail d-flex align-items-center">
-                                    <img src="assets/images/blog_bottom.png" alt="">
-                                    <div class="content">
-                                        <div>
-                                            <p>Du lịch Tân Cương ngắm thiên nhiên tươi đẹp vùng viễn Tây Trung Quốc</p>
-                                            <span>Bạn ngại đi du lịch vì thấy người ta thường có đôi có cặp hoặc đi cùng gia đình con cái,....</span>
-                                        </div>
-                                        <div class="date d-flex align-items-center">
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
-                                            </svg>
-                                            4/3/2025
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="news_thumbnail d-flex align-items-center">
-                                    <img src="assets/images/blog_bottom.png" alt="">
-                                    <div class="content">
-                                        <div>
-                                            <p>Du lịch Tân Cương ngắm thiên nhiên tươi đẹp vùng viễn Tây Trung Quốc</p>
-                                            <span>Bạn ngại đi du lịch vì thấy người ta thường có đôi có cặp hoặc đi cùng gia đình con cái,....</span>
-                                        </div>
-                                        <div class="date d-flex align-items-center">
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
-                                            </svg>
-                                            4/3/2025
+                                </a>
+                                <a href="">
+                                    <div class="news_thumbnail d-flex align-items-center">
+                                        <img src="assets/images/blog_bottom.png" alt="">
+                                        <div class="content">
+                                            <div>
+                                                <p>Du lịch Tân Cương ngắm thiên nhiên tươi đẹp vùng viễn Tây Trung Quốc</p>
+                                                <span>Bạn ngại đi du lịch vì thấy người ta thường có đôi có cặp hoặc đi cùng gia đình con cái,....</span>
+                                            </div>
+                                            <div class="date d-flex align-items-center">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
+                                                </svg>
+                                                4/3/2025
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
+                                <a href="">
+                                    <div class="news_thumbnail d-flex align-items-center">
+                                        <img src="assets/images/blog_bottom.png" alt="">
+                                        <div class="content">
+                                            <div>
+                                                <p>Du lịch Tân Cương ngắm thiên nhiên tươi đẹp vùng viễn Tây Trung Quốc</p>
+                                                <span>Bạn ngại đi du lịch vì thấy người ta thường có đôi có cặp hoặc đi cùng gia đình con cái,....</span>
+                                            </div>
+                                            <div class="date d-flex align-items-center">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
+                                                </svg>
+                                                4/3/2025
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="news_thumbnail d-flex align-items-center">
+                                        <img src="assets/images/blog_bottom.png" alt="">
+                                        <div class="content">
+                                            <div>
+                                                <p>Du lịch Tân Cương ngắm thiên nhiên tươi đẹp vùng viễn Tây Trung Quốc</p>
+                                                <span>Bạn ngại đi du lịch vì thấy người ta thường có đôi có cặp hoặc đi cùng gia đình con cái,....</span>
+                                            </div>
+                                            <div class="date d-flex align-items-center">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667C0 1.19391 1.19391 0 2.66667 0H13.3333C14.8061 0 16 1.19391 16 2.66667V13.3333C16 14.8061 14.8061 16 13.3333 16H2.66667C1.19391 16 0 14.8061 0 13.3333V2.66667ZM1.7778 3.55555V13.3333C1.7778 13.8243 2.17578 14.2222 2.66669 14.2222H13.3334C13.8243 14.2222 14.2222 13.8243 14.2222 13.3333V3.55555H1.7778ZM3.55561 6.22223C3.55561 5.7313 3.95358 5.33334 4.4445 5.33334H11.5556C12.0465 5.33334 12.4445 5.7313 12.4445 6.22223C12.4445 6.71316 12.0465 7.11112 11.5556 7.11112H4.4445C3.95358 7.11112 3.55561 6.71316 3.55561 6.22223Z" fill="#8B8B8B"/>
+                                                </svg>
+                                                4/3/2025
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
