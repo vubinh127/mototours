@@ -1720,6 +1720,10 @@ textarea {
     position: relative;
 }
 
+.about_us_page .our_team .member .info {
+    text-align: center;
+}
+
 .about_us_page .our_team .member .social {
     position: absolute;
     right: 0;
