@@ -17,6 +17,7 @@
             href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&display=swap"
             rel="stylesheet"
         />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <link rel="stylesheet" href="assets/css/style.css?v=1.0" />
     </head>
@@ -42,13 +43,19 @@
                     <label for="find_location">Tìm điểm đến*</label>
                     <input type="text" class="form-control" placeholder="Nhập điểm đến" id="find_location" />
                 </div>
-                <div class="form-group">
+                <div class="form-group position-relative">
                     <label for="checkin">Ngày check in</label>
-                    <input type="date" class="form-control" placeholder="mm/dd/yy" id="checkin" />
+                    <input type="text" class="form-control" placeholder="mm/dd/yy" id="checkin" />
+                    <span class="calendar-icon">
+                        <img src="assets/images/calendar.svg" alt="">
+                    </span>
                 </div>
-                <div class="form-group">
+                <div class="form-group position-relative">
                     <label for="checkout">Ngày check out</label>
-                    <input type="date" class="form-control" placeholder="mm/dd/yy" id="checkout" />
+                    <input type="text" class="form-control" placeholder="mm/dd/yy" id="checkout" />
+                    <span class="calendar-icon">
+                        <img src="assets/images/calendar.svg" alt="">
+                    </span>
                 </div>
                 <button class="btn-FF8A15 search_btn">Tìm kiếm</button>
             </div>
@@ -191,125 +198,91 @@
                     </a>
                 </div>
                 
-                <div class="list_card swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <a href="">
-                                <div class="card">
-                                    <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
-                                    <div class="card-content">
-                                        <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
-                                        <p class="card-subtitle">Móng Cổ</p>
-                                        <div class="card-bottom">
-                                            <div>
-                                                <span class="card-rating">4.8</span>
-                                                <span class="card-review">Xuất sắc • 2,000 Reviews</span>
-                                            </div>
+                <div class="list_card">
+                    <a href="">
+                        <div class="card">
+                            <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
+                            <div class="card-content">
+                                <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
+                                <p class="card-subtitle">Móng Cổ</p>
+                                <div class="card-bottom">
+                                    <div>
+                                        <span class="card-rating">4.8</span>
+                                        <span class="card-review">Xuất sắc • 2,000 Reviews</span>
+                                    </div>
 
-                                            <a href="#" class="btn-FF8A15 card-button">
-                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
-                                                </svg>
-                                            </a>
-                                        </div>
+                                    <div class="btn-FF8A15 card-button">
+                                        <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
+                                        </svg>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <a href="">
-                                <div class="card">
-                                    <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
-                                    <div class="card-content">
-                                        <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
-                                        <p class="card-subtitle">Móng Cổ</p>
-                                        <div class="card-bottom">
-                                            <div>
-                                                <span class="card-rating">4.8</span>
-                                                <span class="card-review">Xuất sắc • 2,000 Reviews</span>
-                                            </div>
+                    </a>
+                    <a href="">
+                        <div class="card">
+                            <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
+                            <div class="card-content">
+                                <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
+                                <p class="card-subtitle">Móng Cổ</p>
+                                <div class="card-bottom">
+                                    <div>
+                                        <span class="card-rating">4.8</span>
+                                        <span class="card-review">Xuất sắc • 2,000 Reviews</span>
+                                    </div>
 
-                                            <a href="#" class="btn-FF8A15 card-button">
-                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
-                                                </svg>
-                                            </a>
-                                        </div>
+                                    <div class="btn-FF8A15 card-button">
+                                        <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
+                                        </svg>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <a href="">
-                                <div class="card">
-                                    <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
-                                    <div class="card-content">
-                                        <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
-                                        <p class="card-subtitle">Móng Cổ</p>
-                                        <div class="card-bottom">
-                                            <div>
-                                                <span class="card-rating">4.8</span>
-                                                <span class="card-review">Xuất sắc • 2,000 Reviews</span>
-                                            </div>
+                    </a>
+                    <a href="">
+                        <div class="card">
+                            <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
+                            <div class="card-content">
+                                <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
+                                <p class="card-subtitle">Móng Cổ</p>
+                                <div class="card-bottom">
+                                    <div>
+                                        <span class="card-rating">4.8</span>
+                                        <span class="card-review">Xuất sắc • 2,000 Reviews</span>
+                                    </div>
 
-                                            <a href="#" class="btn-FF8A15 card-button">
-                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
-                                                </svg>
-                                            </a>
-                                        </div>
+                                    <div class="btn-FF8A15 card-button">
+                                        <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
+                                        </svg>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <a href="">
-                                <div class="card">
-                                    <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
-                                    <div class="card-content">
-                                        <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
-                                        <p class="card-subtitle">Móng Cổ</p>
-                                        <div class="card-bottom">
-                                            <div>
-                                                <span class="card-rating">4.8</span>
-                                                <span class="card-review">Xuất sắc • 2,000 Reviews</span>
-                                            </div>
+                    </a>
+                    <a href="">
+                        <div class="card">
+                            <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
+                            <div class="card-content">
+                                <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
+                                <p class="card-subtitle">Móng Cổ</p>
+                                <div class="card-bottom">
+                                    <div>
+                                        <span class="card-rating">4.8</span>
+                                        <span class="card-review">Xuất sắc • 2,000 Reviews</span>
+                                    </div>
 
-                                            <a href="#" class="btn-FF8A15 card-button">
-                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
-                                                </svg>
-                                            </a>
-                                        </div>
+                                    <div class="btn-FF8A15 card-button">
+                                        <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
+                                        </svg>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <a href="">
-                                <div class="card">
-                                    <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
-                                    <div class="card-content">
-                                        <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
-                                        <p class="card-subtitle">Móng Cổ</p>
-                                        <div class="card-bottom">
-                                            <div>
-                                                <span class="card-rating">4.8</span>
-                                                <span class="card-review">Xuất sắc • 2,000 Reviews</span>
-                                            </div>
-
-                                            <a href="#" class="btn-FF8A15 card-button">
-                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
-                                                </svg>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
+                    </a>
                 </div>
             </div>
 
@@ -330,125 +303,91 @@
                     </a>
                 </div>
                 
-                <div class="list_card swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <a href="">
-                                <div class="card">
-                                    <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
-                                    <div class="card-content">
-                                        <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
-                                        <p class="card-subtitle">Móng Cổ</p>
-                                        <div class="card-bottom">
-                                            <div>
-                                                <span class="card-rating">4.8</span>
-                                                <span class="card-review">Xuất sắc • 2,000 Reviews</span>
-                                            </div>
+                <div class="list_card">
+                    <a href="">
+                        <div class="card">
+                            <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
+                            <div class="card-content">
+                                <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
+                                <p class="card-subtitle">Móng Cổ</p>
+                                <div class="card-bottom">
+                                    <div>
+                                        <span class="card-rating">4.8</span>
+                                        <span class="card-review">Xuất sắc • 2,000 Reviews</span>
+                                    </div>
 
-                                            <a href="#" class="btn-FF8A15 card-button">
-                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
-                                                </svg>
-                                            </a>
-                                        </div>
+                                    <div class="btn-FF8A15 card-button">
+                                        <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
+                                        </svg>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <a href="">
-                                <div class="card">
-                                    <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
-                                    <div class="card-content">
-                                        <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
-                                        <p class="card-subtitle">Móng Cổ</p>
-                                        <div class="card-bottom">
-                                            <div>
-                                                <span class="card-rating">4.8</span>
-                                                <span class="card-review">Xuất sắc • 2,000 Reviews</span>
-                                            </div>
+                    </a>
+                    <a href="">
+                        <div class="card">
+                            <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
+                            <div class="card-content">
+                                <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
+                                <p class="card-subtitle">Móng Cổ</p>
+                                <div class="card-bottom">
+                                    <div>
+                                        <span class="card-rating">4.8</span>
+                                        <span class="card-review">Xuất sắc • 2,000 Reviews</span>
+                                    </div>
 
-                                            <a href="#" class="btn-FF8A15 card-button">
-                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
-                                                </svg>
-                                            </a>
-                                        </div>
+                                    <div class="btn-FF8A15 card-button">
+                                        <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
+                                        </svg>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <a href="">
-                                <div class="card">
-                                    <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
-                                    <div class="card-content">
-                                        <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
-                                        <p class="card-subtitle">Móng Cổ</p>
-                                        <div class="card-bottom">
-                                            <div>
-                                                <span class="card-rating">4.8</span>
-                                                <span class="card-review">Xuất sắc • 2,000 Reviews</span>
-                                            </div>
+                    </a>
+                    <a href="">
+                        <div class="card">
+                            <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
+                            <div class="card-content">
+                                <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
+                                <p class="card-subtitle">Móng Cổ</p>
+                                <div class="card-bottom">
+                                    <div>
+                                        <span class="card-rating">4.8</span>
+                                        <span class="card-review">Xuất sắc • 2,000 Reviews</span>
+                                    </div>
 
-                                            <a href="#" class="btn-FF8A15 card-button">
-                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
-                                                </svg>
-                                            </a>
-                                        </div>
+                                    <div class="btn-FF8A15 card-button">
+                                        <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
+                                        </svg>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <a href="">
-                                <div class="card">
-                                    <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
-                                    <div class="card-content">
-                                        <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
-                                        <p class="card-subtitle">Móng Cổ</p>
-                                        <div class="card-bottom">
-                                            <div>
-                                                <span class="card-rating">4.8</span>
-                                                <span class="card-review">Xuất sắc • 2,000 Reviews</span>
-                                            </div>
+                    </a>
+                    <a href="">
+                        <div class="card">
+                            <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
+                            <div class="card-content">
+                                <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
+                                <p class="card-subtitle">Móng Cổ</p>
+                                <div class="card-bottom">
+                                    <div>
+                                        <span class="card-rating">4.8</span>
+                                        <span class="card-review">Xuất sắc • 2,000 Reviews</span>
+                                    </div>
 
-                                            <a href="#" class="btn-FF8A15 card-button">
-                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
-                                                </svg>
-                                            </a>
-                                        </div>
+                                    <div class="btn-FF8A15 card-button">
+                                        <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
+                                        </svg>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <a href="">
-                                <div class="card">
-                                    <img src="assets/images/special_img.jpg" alt="Mountain View" class="card-image">
-                                    <div class="card-content">
-                                        <h3 class="card-title">Khám phá Tây Bắc Móng Cổ</h3>
-                                        <p class="card-subtitle">Móng Cổ</p>
-                                        <div class="card-bottom">
-                                            <div>
-                                                <span class="card-rating">4.8</span>
-                                                <span class="card-review">Xuất sắc • 2,000 Reviews</span>
-                                            </div>
-
-                                            <a href="#" class="btn-FF8A15 card-button">
-                                                <svg width="17" height="12" viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.6713 6.9998C1.11902 6.9998 0.671304 6.55208 0.671304 5.9998C0.671304 5.44752 1.11902 4.9998 1.6713 4.9998L13.4996 4.9998L10.9642 2.46429C10.5737 2.07377 10.5737 1.44063 10.9642 1.05011C11.3547 0.659587 11.9879 0.659585 12.3784 1.05011L16.621 5.29279C17.0115 5.68332 17.0115 6.31648 16.621 6.707L12.3784 10.9496C11.9879 11.3402 11.3547 11.3402 10.9642 10.9496C10.5737 10.5591 10.5737 9.92596 10.9642 9.53544L13.4998 6.9998L1.6713 6.9998Z" fill="white"/>
-                                                </svg>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
+                    </a>
                 </div>
             </div>
 
@@ -479,6 +418,7 @@
                                     <span class="fa fa-star"></span>
                                 </div>
                             </div>
+
                         </div>
                         <div class="swiper-slide">
                             <div class="detail_feedback">
@@ -674,6 +614,7 @@
             integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
             crossorigin="anonymous"
         ></script>
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script src="assets/js/index.js"></script>
     </body>

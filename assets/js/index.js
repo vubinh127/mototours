@@ -1,38 +1,25 @@
 var slide_rating = new Swiper(".slide_rating", {
     slidesPerView: 1,
-    spaceBetween: 23,
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
+    centeredSlides: false,
     breakpoints: {
-        576: {
+        992: {
             slidesPerView: 2,
-            spaceBetween: 40,
+            spaceBetween: 23,
         },
     },
+    watchOverflow: true,
+    spaceBetween: 0,
+    loop: false,
+    cssMode: true,
+    width: null,
+    edgeSwipeDetection: true,
+    edgeSwipeThreshold: 20,
+    autoplay: true,
   });
-
-var list_card = new Swiper(".list_card", {
-    slidesPerView: 1,
-    spaceBetween: 12,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    breakpoints: {
-        576: {
-            slidesPerView: 2,
-            spaceBetween: 40,
-            pagination: false,
-        },
-        1200: {
-          slidesPerView: 4,
-          spaceBetween: 50,
-          pagination: false,
-        },
-    },
-});
 
   var discover_tour_thumbnail = new Swiper(".discover_tour_thumbnail", {
     slidesPerView: 1,
@@ -66,4 +53,13 @@ var list_member = new Swiper(".list_member", {
             pagination: false,
         },
     },
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    flatpickr("#checkin", {
+        dateFormat: "d/m/Y",
+    });
+    flatpickr("#checkout", {
+        dateFormat: "d/m/Y",
+    });
 });

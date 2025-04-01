@@ -17,6 +17,7 @@
             href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&display=swap"
             rel="stylesheet"
         />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <link rel="stylesheet" href="assets/css/style.css?v=1.0" />
     </head>
@@ -32,13 +33,19 @@
                         <label for="find_location">Tìm điểm đến*</label>
                         <input type="text" class="form-control" placeholder="Nhập điểm đến" id="find_location" />
                     </div>
-                    <div class="form-group">
+                    <div class="form-group position-relative">
                         <label for="checkin">Ngày check in</label>
-                        <input type="date" class="form-control" placeholder="mm/dd/yy" id="checkin" />
+                        <input type="text" class="form-control" placeholder="mm/dd/yy" id="checkin" />
+                        <span class="calendar-icon">
+                        <img src="assets/images/calendar.svg" alt="">
+                    </span>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group position-relative">
                         <label for="checkout">Ngày check out</label>
-                        <input type="date" class="form-control" placeholder="mm/dd/yy" id="checkout" />
+                        <input type="text" class="form-control" placeholder="mm/dd/yy" id="checkout" />
+                        <span class="calendar-icon">
+                            <img src="assets/images/calendar.svg" alt="">
+                        </span>
                     </div>
                     <div class="form-group">
                         <label for="inputState">Khoảng giá tiền</label>
@@ -320,6 +327,7 @@
             integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
             crossorigin="anonymous"
         ></script>
+        <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script src="assets/js/index.js"></script>
     </body>
