@@ -56,10 +56,21 @@ var list_member = new Swiper(".list_member", {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    flatpickr("#checkin", {
+    const checkinPicker = flatpickr("#checkin", {
         dateFormat: "d/m/Y",
     });
-    flatpickr("#checkout", {
+
+    const checkoutPicker = flatpickr("#checkout", {
         dateFormat: "d/m/Y",
+    });
+
+
+    $('.calendar-icon').on('click', function() {  
+        const targetInput = $(this).data('target');  
+        if (targetInput === "checkin") {  
+            checkinPicker.open();  
+        } else if (targetInput === "checkout") {  
+            checkoutPicker.open();  
+        }
     });
 });

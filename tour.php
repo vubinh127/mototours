@@ -36,14 +36,14 @@
                     <div class="form-group position-relative">
                         <label for="checkin">Ngày check in</label>
                         <input type="text" class="form-control" placeholder="mm/dd/yy" id="checkin" />
-                        <span class="calendar-icon">
+                        <span class="calendar-icon" data-target="checkin">
                             <img src="assets/images/calendar.svg" alt="">
                         </span>
                     </div>
                     <div class="form-group position-relative">
                         <label for="checkout">Ngày check out</label>
                         <input type="text" class="form-control" placeholder="mm/dd/yy" id="checkout" />
-                        <span class="calendar-icon">
+                        <span class="calendar-icon" data-target="checkout">
                             <img src="assets/images/calendar.svg" alt="">
                         </span>
                     </div>
@@ -517,6 +517,32 @@
                         </div>
                     </a>
                 </div>
+
+                <div class="pagination mt-5">
+                       <nav aria-label="Page navigation example">
+                           <ul class="pagination">
+                               <li class="page-item">
+                                   <a class="page-link" href="#" aria-label="Previous">
+                                       <svg style="transform: rotate(180deg);" width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <path fill-rule="evenodd" clip-rule="evenodd" d="M0.757343 13.8927C0.366824 14.2832 0.366825 14.9164 0.757347 15.3069L0.993038 15.5426C1.38356 15.9331 2.01673 15.9331 2.40725 15.5426L9.2426 8.7072C9.63313 8.31668 9.63312 7.68351 9.2426 7.29299L2.40714 0.457592C2.01662 0.0670691 1.38345 0.0670712 0.992928 0.457597L0.757235 0.693292C0.366712 1.08382 0.366714 1.71698 0.757238 2.1075L5.94275 7.29299C6.33327 7.68351 6.33327 8.31668 5.94275 8.7072L0.757343 13.8927Z" fill="#232227"/>
+                                       </svg>
+
+                                   </a>
+                               </li>
+                               <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                               <li class="page-item"><a class="page-link" href="#">2</a></li>
+                               <li class="page-item"><a class="page-link" href="#">3</a></li>
+                               <li class="page-item">
+                                   <a class="page-link" href="#" aria-label="Next">
+                                       <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                           <path fill-rule="evenodd" clip-rule="evenodd" d="M0.757343 13.8927C0.366824 14.2832 0.366825 14.9164 0.757347 15.3069L0.993038 15.5426C1.38356 15.9331 2.01673 15.9331 2.40725 15.5426L9.2426 8.7072C9.63313 8.31668 9.63312 7.68351 9.2426 7.29299L2.40714 0.457592C2.01662 0.0670691 1.38345 0.0670712 0.992928 0.457597L0.757235 0.693292C0.366712 1.08382 0.366714 1.71698 0.757238 2.1075L5.94275 7.29299C6.33327 7.68351 6.33327 8.31668 5.94275 8.7072L0.757343 13.8927Z" fill="#232227"/>
+                                       </svg>
+
+                                   </a>
+                               </li>
+                           </ul>
+                       </nav>
+                   </div>
             </div>
         </div>
         
