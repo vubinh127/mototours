@@ -57,12 +57,17 @@ var list_member = new Swiper(".list_member", {
 document.addEventListener("DOMContentLoaded", function() {
     const checkinPicker = flatpickr(".checkin", {
         dateFormat: "d/m/Y",
-        disableMobile: true
+        disableMobile: true,
+        clickOpens: false, 
     });
 
     const checkoutPicker = flatpickr(".checkout", {
         dateFormat: "d/m/Y",
         disableMobile: true,
+        clickOpens: false, 
     });
+
+    document.getElementsByClassName('checkin')[0].onclick = checkinPicker.toggle;
+    document.getElementsByClassName('checkout')[0].onclick = checkoutPicker.toggle;
 
 });
