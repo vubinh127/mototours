@@ -651,7 +651,7 @@ header .navbar .navbar-nav .nav-link:hover::after {
 }
 
 .feedback_section .swiper-slide {
-    padding: 18px;
+    padding: 18px 9px;
 }
 
 
@@ -1577,6 +1577,10 @@ textarea {
     width: 100%;
 }
 
+.news_page .search-form .form-control:focus {
+    z-index: 0;
+}
+
 .news_page .list_news {
     margin-top: 48px;   
 }
@@ -1869,6 +1873,7 @@ textarea {
     color: var(--color-8B8B8B);
 }
 
+.detail_tour_page .feedback_section,
 .about_us_page .feedback_section {
     max-width: unset;
 }
@@ -1921,5 +1926,20 @@ textarea {
         margin-bottom: 40px;
     }
 
+    .footer {
+        padding: 15px;
+    }
+
 }
 
+
+.blogs_and_news a:hover p,
+.box-special-tour .box_tour a:hover .title_tour p ,
+.blogs_and_news a:hover .blog_top .content p,
+.blogs_and_news a:hover .news_thumbnail .content p,
+.list_card a:hover .card-title,
+.news_page .list_news a:hover p ,
+.contact_page .location a:hover div,
+.list_touring a:hover .tour_text p {
+    color: var(--color-FF8A15)
+}

@@ -8,7 +8,6 @@ var slide_rating = new Swiper(".slide_rating", {
     breakpoints: {
         992: {
             slidesPerView: 2,
-            spaceBetween: 23,
         },
     },
     watchOverflow: true,
@@ -56,12 +55,14 @@ var list_member = new Swiper(".list_member", {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    const checkinPicker = flatpickr("#checkin", {
+    const checkinPicker = flatpickr(".checkin", {
         dateFormat: "d/m/Y",
+        disableMobile: true
     });
 
-    const checkoutPicker = flatpickr("#checkout", {
+    const checkoutPicker = flatpickr(".checkout", {
         dateFormat: "d/m/Y",
+        disableMobile: true,
     });
 
 

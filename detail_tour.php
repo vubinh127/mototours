@@ -35,14 +35,14 @@
                     </div>
                     <div class="form-group position-relative">
                         <label for="checkin">Ngày check in</label>
-                        <input type="text" class="form-control" placeholder="mm/dd/yy" id="checkin" />
+                        <input type="text" class="form-control checkin" placeholder="mm/dd/yy" id="checkin" />
                         <span class="calendar-icon" data-target="checkin">
                         <img src="assets/images/calendar.svg" alt="">
                     </span>
                     </div>
                     <div class="form-group position-relative">
                         <label for="checkout">Ngày check out</label>
-                        <input type="text" class="form-control" placeholder="mm/dd/yy" id="checkout" />
+                        <input type="text" class="form-control checkout" placeholder="mm/dd/yy" id="checkout" />
                         <span class="calendar-icon" data-target="checkout">
                             <img src="assets/images/calendar.svg" alt="">
                         </span>

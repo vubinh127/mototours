@@ -48,7 +48,7 @@
                         </form>
                     </div>
                     <div class="col-lg-6">
-                        <div class="location text-center">
+                        <div class="location text-center mt-5 mt-lg-0">
                             <div class="address">
                                 <a href="">
                                     <div class="d-flex align-items-center">
