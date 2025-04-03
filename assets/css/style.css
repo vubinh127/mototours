@@ -615,7 +615,7 @@ header .navbar .navbar-nav .nav-link:hover::after {
     background: var(--color-ffffff);
     border-radius: 24px;
     padding: 23px;
-    box-shadow: 0px 0px 28px 0px #0000001F;
+    box-shadow: 0px 0px 10px 0px #0000001F;
 }
 
 
@@ -1940,6 +1940,7 @@ textarea {
 .list_card a:hover .card-title,
 .news_page .list_news a:hover p ,
 .contact_page .location a:hover div,
-.list_touring a:hover .tour_text p {
+.list_touring a:hover .tour_text p,
+.detail_news_page .more_news a:hover .news_text p{
     color: var(--color-FF8A15)
 }

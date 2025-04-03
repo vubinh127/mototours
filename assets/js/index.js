@@ -17,7 +17,7 @@ var slide_rating = new Swiper(".slide_rating", {
     width: null,
     edgeSwipeDetection: true,
     edgeSwipeThreshold: 20,
-    autoplay: true,
+    autoplay: false,
   });
 
   var discover_tour_thumbnail = new Swiper(".discover_tour_thumbnail", {
@@ -65,13 +65,4 @@ document.addEventListener("DOMContentLoaded", function() {
         disableMobile: true,
     });
 
-
-    $('.calendar-icon').on('click', function() {  
-        const targetInput = $(this).data('target');  
-        if (targetInput === "checkin") {  
-            checkinPicker.open();  
-        } else if (targetInput === "checkout") {  
-            checkoutPicker.open();  
-        }
-    });
 });
