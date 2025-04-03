@@ -2,20 +2,22 @@
         <header>
             <div class="container">
                 <nav class="main-menu navbar navbar-expand-xl navbar-light justify-content-between align-items-center">
-                    <a class="navbar-brand" href="/mototours/index.php">
-                        <img src="assets/images/Logo.svg" alt="" />
-                    </a>
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#navbarNav"
-                        aria-controls="navbarNav"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <div class="d-flex align-items-center">
+                        <a class="navbar-brand" href="/mototours/index.php">
+                            <img src="assets/images/Logo.svg" alt="" />
+                        </a>
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#navbarNav"
+                            aria-controls="navbarNav"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
                     <div class="collapse navbar-collapse menu-custom justify-content-end" id="navbarNav">
                         <ul id="menu-main-menu" class="navbar-nav menu">
                             <li class="nav-item dropdown">
