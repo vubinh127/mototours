@@ -2,7 +2,7 @@
         <header>
             <div class="container">
                 <nav class="main-menu navbar navbar-expand-xl navbar-light justify-content-between align-items-center">
-                    <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center justify-content-between w-100">
                         <a class="navbar-brand" href="/mototours/index.php">
                             <img src="assets/images/Logo.svg" alt="" />
                         </a>
@@ -18,7 +18,7 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                     </div>
-                    <div class="collapse navbar-collapse menu-custom justify-content-end" id="navbarNav">
+                    <div class="collapse navbar-collapse menu-custom justify-content-end flex-shrink-0" id="navbarNav">
                         <ul id="menu-main-menu" class="navbar-nav menu">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="/mototours/tour.php" id="brandDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
