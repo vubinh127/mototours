@@ -1297,6 +1297,10 @@ header .navbar .navbar-nav .nav-link:hover::after {
     line-height: 20px;
 }
 
+.detail_tour_page .price_date .form-group input {
+    background: var(--color-ffffff);
+}
+
 
 .detail_tour_page .detail_tour_content .detail_tour_page .detail_tour_content .form-group {
     padding: 0;

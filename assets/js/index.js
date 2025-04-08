@@ -71,3 +71,21 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementsByClassName('checkout')[0].onclick = checkoutPicker.toggle;
 
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const checkinPicker = flatpickr(".date_start", {
+        dateFormat: "d/m/Y",
+        disableMobile: true,
+        clickOpens: false,
+    });
+
+    const checkoutPicker = flatpickr(".date_end", {
+        dateFormat: "d/m/Y",
+        disableMobile: true,
+        clickOpens: false,
+    });
+
+    document.getElementsByClassName('date_start')[0].onclick = checkinPicker.toggle;
+    document.getElementsByClassName('date_end')[0].onclick = checkoutPicker.toggle;
+
+});

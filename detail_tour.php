@@ -161,11 +161,11 @@
                                 <div class="box_form d-flex align-items-center">
                                     <div class="form-group">
                                         <label for="startDate">Ngày bắt đầu</label>
-                                        <input type="text" class="form-control" id="startDate" value="2024-12-15">
+                                        <input type="text" class="form-control date_start" id="startDate" value="2024-12-15">
                                     </div>
                                     <div class="form-group">
-                                        <label for="endDate">Ngày bắt đầu</label>
-                                        <input type="text" class="form-control" id="endDate" value="2025-01-05">
+                                        <label for="endDate">Ngày kết thúc</label>
+                                        <input type="text" class="form-control date_end" id="endDate" value="2025-01-05">
                                     </div>
                                 </div>
                                 <div class="form-group">
