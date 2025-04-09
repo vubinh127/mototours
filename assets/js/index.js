@@ -89,3 +89,23 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementsByClassName('date_end')[0].onclick = checkoutPicker.toggle;
 
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const starRatings = document.querySelectorAll('.star-rating');
+
+    starRatings.forEach(function(starRating) {
+        const rating = parseFloat(starRating.dataset.rating);
+        const fullStars = Math.floor(rating);
+        const decimal = rating - fullStars;
+        const stars = starRating.querySelectorAll('.fa-star');
+
+        stars.forEach((star, index) => {
+            if (index < fullStars) {
+                star.classList.add('checked');
+            } else if (index === fullStars && decimal > 0) {
+                star.classList.add('partial');
+                star.style.setProperty('--percent', `${decimal * 100}%`);
+            }
+        });
+    });
+});

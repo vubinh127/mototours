@@ -319,6 +319,13 @@ header .navbar .navbar-nav .nav-link:hover::after {
     height: 288px;
 }
 
+.box-special-tour .small_grid .box_tour .title_tour p {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
 .box-special-tour .box_tour {
     border-radius: 24px;
     position: relative;
@@ -373,7 +380,21 @@ header .navbar .navbar-nav .nav-link:hover::after {
 }
 
 .star-rating .fa-star.checked {
-    color: var(--color-FF8A15) !important;
+    color: var(--color-FF8A15) !important; /* màu sao đầy */
+}
+
+.star-rating .fa-star.partial {
+    background: linear-gradient(to right, var(--color-FF8A15) var(--percent), var(--color-ffffff) var(--percent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.feedback_section .star-rating .fa-star.partial  {
+    background: linear-gradient(to right, var(--color-FF8A15) var(--percent), var(--color-212121) var(--percent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 
@@ -553,6 +574,9 @@ header .navbar .navbar-nav .nav-link:hover::after {
     background: var(--color-E4E7ED);
     border-radius: 6px;
     margin-right: 8px;
+    min-width: 30px;
+    display: inline-block;
+    text-align: center;
 }
 
 .list_card .card-review {
@@ -674,6 +698,10 @@ header .navbar .navbar-nav .nav-link:hover::after {
     width: 16px;
     height: 16px;
     background:var(--color-D9D9D9) ;
+}
+
+.swiper-pagination-bullet:hover {
+    background: var(--color-FF8A14);
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {

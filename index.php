@@ -75,10 +75,10 @@
                             <div class="title_tour">
                                 <p>Nam Mỹ</p>
                                 <span>Nơi tận cùng trái đất theo đúng nghĩa đen và nghĩa bóng của nó, hành trình này sẽ đưa bạn đến với vùng Patagonia,...</span>
-                                <div class="star-rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
+                                <div class="star-rating" data-rating="4.2">
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
                                 </div>
@@ -92,10 +92,10 @@
                             <div class="title_tour">
                                 <p>Nam Mỹ</p>
                                 <span>Nơi tận cùng trái đất theo đúng nghĩa đen và nghĩa bóng của nó, hành trình này sẽ đưa bạn đến với vùng Patagonia,...</span>
-                                <div class="star-rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
+                                <div class="star-rating" data-rating="2.2">
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
                                 </div>
@@ -110,10 +110,10 @@
                                 <div class="title_tour">
                                     <p>Nam Mỹ</p>
                                     <span>Nơi tận cùng trái đất theo đúng nghĩa đen và nghĩa bóng của nó, hành trình này sẽ đưa bạn đến với vùng Patagonia,...</span>
-                                    <div class="star-rating">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
+                                    <div class="star-rating" data-rating="5">
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
                                         <span class="fa fa-star"></span>
                                         <span class="fa fa-star"></span>
                                     </div>
@@ -127,10 +127,10 @@
                                 <div class="title_tour">
                                     <p>Nam Mỹ</p>
                                     <span>Nơi tận cùng trái đất theo đúng nghĩa đen và nghĩa bóng của nó, hành trình này sẽ đưa bạn đến với vùng Patagonia,...</span>
-                                    <div class="star-rating">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
+                                    <div class="star-rating" data-rating="5">
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
                                         <span class="fa fa-star"></span>
                                         <span class="fa fa-star"></span>
                                     </div>
@@ -410,10 +410,10 @@
                                 <div class="content">
                                     “Vivamus facilisis mi a mauris ultrices fermentum. Aliquam porta eleifend mi non laoreet. Donec ornare vitae nulla pulvinar tristique. Sed vulputate in sapien eu eleifend. Donec id rhoncus mauris. Cras adipiscing at magna in volutpat. Nullam eleifend elit dui, quis vulputate magna mattis ut. Vestibulum ornare arcu mauris, sed”
                                 </div>
-                                <div class="star-rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
+                                <div class="star-rating" data-rating="5">
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
                                 </div>
@@ -432,10 +432,10 @@
                                 <div class="content">
                                     “Vivamus facilisis mi a mauris ultrices fermentum. Aliquam porta eleifend mi non laoreet. Donec ornare vitae nulla pulvinar tristique. Sed vulputate in sapien eu eleifend. Donec id rhoncus mauris. Cras adipiscing at magna in volutpat. Nullam eleifend elit dui, quis vulputate magna mattis ut. Vestibulum ornare arcu mauris, sed”
                                 </div>
-                                <div class="star-rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
+                                <div class="star-rating" data-rating="1.5">
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
                                 </div>
@@ -453,10 +453,10 @@
                                 <div class="content">
                                     “Vivamus facilisis mi a mauris ultrices fermentum. Aliquam porta eleifend mi non laoreet. Donec ornare vitae nulla pulvinar tristique. Sed vulputate in sapien eu eleifend. Donec id rhoncus mauris. Cras adipiscing at magna in volutpat. Nullam eleifend elit dui, quis vulputate magna mattis ut. Vestibulum ornare arcu mauris, sed”
                                 </div>
-                                <div class="star-rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
+                                <div class="star-rating" data-rating="5">
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
                                     <span class="fa fa-star"></span>
                                 </div>
